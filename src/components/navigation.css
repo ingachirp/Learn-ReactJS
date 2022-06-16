@@ -1,0 +1,38 @@
+.navigation__list {
+    background-color: rgb(71, 70, 90);
+    color: white;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+}
+
+.navigation__list-item {
+    margin-right: 20px;
+}
+
+.navigation {
+    flex: 1;
+}
+
+.navigation__list.secondary {
+    flex: 1;
+    display: block;
+    list-style: none;
+    background-color: #eaeaea;
+}
+
+.secondary .navigation__list-item {
+    color: black;
+    padding: 2em 0;
+    margin: 0;
+}
+
+.navigation h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    display: none;
+}
+
+.navigation.secondary h3 {
+    display: block;
+}
